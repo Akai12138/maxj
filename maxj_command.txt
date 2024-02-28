@@ -1,0 +1,4 @@
+ant build -Dmanager=movingaveragesimple.MovingAverageSimpleManager -Dtarget=DFE_SIM -Dmaxfile-name=MovingAverageSimple
+make MAXFILE_DIRS=../Tutorial-chap03-example01-movingaveragesimple-DFE/maxdc_builds/MovingAverageSimple_MAX5C_DFE_SIM/results/
+make run_sim
+make clean
